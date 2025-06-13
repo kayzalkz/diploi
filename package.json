@@ -1,16 +1,18 @@
 {
-  "name": "nodejs-sb",
+  "name": "nodejs-proxy",
   "version": "1.0.0",
-  "description": "node",
-  "main": "index.js",
-  "author": "eooce",
-  "license": "MIT",
-  "private": false,
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-proxy": "latest",
+    "ws": "^8.13.0"
   },
   "engines": {
     "node": ">=14"
   }
 }
-  
+
