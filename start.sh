@@ -6,7 +6,7 @@ export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的age
 export ARGO_DOMAIN='kzllazy.lazyak.dpdns.org'}         # 固定隧道域名,留空即启用临时隧道
 export ARGO_AUTH='{"AccountTag":"25f5e9b9a0d2a52a286b7085a3f5c443","TunnelSecret":"5+L61XE6T4MBGGoRbyc5c9J0pNa4yToszchyd4KYZ8s=","TunnelID":"95c9176b-ce1b-44d4-a01e-2d86b84dd304","Endpoint":""}
 '}             # 固定隧道token或json,留空即启用临时隧道
-export CFIP=${CFIP:-'kayzal.dpdns.org'}        # argo节点优选域名或优选ip
+export CFIP=${CFIP:-'206.238.237.182'}        # argo节点优选域名或优选ip
 export CFPORT='443'}                # argo节点端口 
 export NAME=${NAME:-'kzllazy'}                    # 节点名称  
 export FILE_PATH=${FILE_PATH:-'./.npm'}       # sub 路径  
