@@ -3,12 +3,11 @@ export UUID=${UUID:-'89b3cbba-e6ac-485a-9481-976a0415eab9'} # 哪吒v1,在不同
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN='kzllazy.lazyak.dpdns.org'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH='{"AccountTag":"25f5e9b9a0d2a52a286b7085a3f5c443","TunnelSecret":"5+L61XE6T4MBGGoRbyc5c9J0pNa4yToszchyd4KYZ8s=","TunnelID":"95c9176b-ce1b-44d4-a01e-2d86b84dd304","Endpoint":""}
-'}             # 固定隧道token或json,留空即启用临时隧道
-export CFIP=${CFIP:-'206.238.237.182'}        # argo节点优选域名或优选ip
-export CFPORT='443'}                # argo节点端口 
-export NAME=${NAME:-'kzllazy'}                    # 节点名称  
+export ARGO_DOMAIN='kzllazy.lazyak.dpdns.org'       # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH='{"AccountTag":"25f5e9b9a0d2a52a286b7085a3f5c443","TunnelSecret":"5+L61XE6T4MBGGoRbyc5c9J0pNa4yToszchyd4KYZ8s=","TunnelID":"95c9176b-ce1b-44d4-a01e-2d86b84dd304","Endpoint":""}'            # 固定隧道token或json,留空即启用临时隧道
+export CFIP='206.238.237.182'      # argo节点优选域名或优选ip
+export CFPORT='443'               # argo节点端口 
+export NAME=${NAME:-'kzllazy'                   # 节点名称  
 export FILE_PATH=${FILE_PATH:-'./.npm'}       # sub 路径  
 export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应
 export TUIC_PORT=${TUIC_PORT:-'40000'}        # Tuic 端口，支持多端口玩具可填写，否则不动
